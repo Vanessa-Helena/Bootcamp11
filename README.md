@@ -110,7 +110,7 @@ Depois disso o componente está pronto para ser importado em outro aquivo que de
 
 ### Propriedade
 
-É alguma informação que podemos passar de um componente pai para um componente filho. Passamos uma probriedade dentro do componente criado. Podemos criar um componente <Header> que é um título um /*"<H1>"*/ . Porém quando exporto ele para usá-lo.  Coloco no meu componente Header um título específico que queremos mostrar, então fazemos o seguinte: <Header title="nome do título">. Para isso funcionar e o título aparecer na tela, lá no meu componente precisa passar o props assim: function Header(props). E dentro da função aonde estou criando meu componente defino assim: <Header>
+É alguma informação que podemos passar de um componente pai para um componente filho. Passamos uma probriedade dentro do componente criado. Podemos criar um componente <Header> que é um título um h1 no html. Porém quando exporto ele para usá-lo.  Coloco no meu componente Header um título específico que queremos mostrar, então fazemos o seguinte: <Header title="nome do título">. Para isso funcionar e o título aparecer na tela, lá no meu componente precisa passar o props assim: function Header(props). E dentro da função aonde estou criando meu componente defino assim: <Header>
 
    <H1>{props.title}</H1>
 
